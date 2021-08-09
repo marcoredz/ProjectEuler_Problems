@@ -11,4 +11,8 @@ def getSumOfMultiples(*numbers, _range):
                 sum += i
     print(sum)
 
-getSumOfMultiples(3, 5, _range=1000)
+def main():
+    getSumOfMultiples(3, 5, _range=1000)
+
+if __name__ == "__main__":
+    main()
